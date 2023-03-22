@@ -22,8 +22,8 @@ const NewsSchema = new mongoose.Schema({
     ref: "User",
     required: true,
   },
-  likes: { type: Array, required: true },
-  comments: { type: Array, required: true },
+  likes: { type: Array, require: true },
+  comments: { type: Array, require: true },
 });
 
 const News = mongoose.model("News", NewsSchema);
