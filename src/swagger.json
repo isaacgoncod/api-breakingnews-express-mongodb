@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "https://api-breakingnews.onrender.com",
+      "url": "https://api-breakingnews-opiv.onrender.com",
       "description": "Render Server"
     },
     {
